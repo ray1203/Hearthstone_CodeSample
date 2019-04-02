@@ -56,22 +56,25 @@ int main(){
     Flame_Imp.Attack=3;
     Flame_Imp.Health=2;
     Flame_Imp.Cost=1;
-    strcpy(Flame_Imp.name,"ȭ�� ����");
+    strcpy(Flame_Imp.name,"화염 임프");//전투의 함성:내 영웅에게 피해를 3 줍니다.
     Flame_Imp.tribe=devil;
+    
     Pit_Lord.Attack=5;
     Pit_Lord.Health=6;
     Pit_Lord.Cost=4;
-    strcpy(Pit_Lord.name,"������ ����");
+    strcpy(Pit_Lord.name,"지옥의 군주");//전투의 함성:내 영웅에게 피해를 5 줍니다.
     Pit_Lord.tribe=devil;
+    
     Antique_Healbot.Attack=3;
     Antique_Healbot.Health=3;
     Antique_Healbot.Cost=5;
-    strcpy(Antique_Healbot.name,"���� ġ���κ�");
+    strcpy(Antique_Healbot.name,"낡은 치유로봇");//전투의 함성:내 영웅의 생명력을 8 회복시킵니다.
     Antique_Healbot.tribe=mech;
+    
     Guardian_of_Kings.Attack=5;
     Guardian_of_Kings.Health=6;
     Guardian_of_Kings.Cost=7;
-    strcpy(Guardian_of_Kings.name,"���� ��ȣ��");
+    strcpy(Guardian_of_Kings.name,"왕의 수호자");//전투의 함성:내 영웅의 생명력을 6 회복시킵니다.
     Guardian_of_Kings.tribe=none;
 
 
